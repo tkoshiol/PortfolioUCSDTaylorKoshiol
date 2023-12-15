@@ -1,0 +1,202 @@
+
+
+/* COGS3 studyBuddy specific styles go here. */
+
+#title {background-image: linear-gradient(#F7EDD2,#ED4F42);
+  padding-bottom: 7%;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Oswald';
+  font-size: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Oswald';
+  font-weight: bold;
+}
+
+p {
+  color:#000000;
+}
+
+/*Navigation Bar*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: 'Kenia';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#images.navbar-brand{
+  size: 100px;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.nav-link { 
+  font-family: 'Oswald';
+  font-size: 1.2rem;
+  color: black !important;
+}
+
+/*Download Buttons*/
+
+.download-button.Not {
+  margin: 5% 3% 5% 0%;
+  color: #000000;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+  font-weight: bold;
+  color:#ED4F42;
+}
+
+.download-button:hover {
+  color:#177bfa;
+}
+
+/*Title Image*/
+.title-image {
+  width: 100%;
+}
+
+
+/*Features*/
+#features {
+  padding: 7% 15%;
+  padding-bottom: 7%;
+  background-color: #ED4F42;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color:#F7EDD2;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color:#177bfa;
+}
+
+/*Peer  Advisor Section*/
+
+#PeerAdvisor {
+  text-align: center;
+  background-image: linear-gradient(#ED4F42,#F7EDD2);
+  padding-top: 7%;
+}
+
+.Job {
+  text-align: left;
+  margin-left: 10%;
+}
+
+.Location {
+  font-style: italic;
+}
+
+.PostsTitle {
+  padding-top: 3%;
+}
+
+.Peer-image {
+  width: 80%;
+  margin: 10px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+  padding-top: 3%;
+}
+
+#press {
+  background-color: #F7EDD2;
+  text-align: center;
+}
+
+.peer-logo {
+  width: 13%;
+  margin: 10px 10px 10px;
+}
+
+/*VDA Selector*/
+
+#VDA {
+  padding: 100px;
+  text-align: center;
+  background-color: #F7EDD2;
+}
+
+.VDA {
+  width: 300px;
+}
+
+.VDA-header {
+  color:black;
+  text-align: left;
+  margin-left: 7%;
+}
+
+.VDA-column {
+  padding: 3% 2%;
+}
+
+/*Call To Action Section CTA*/
+#cta {
+  background-color: #ED4F42;
+  padding: 7% 15%;
+  padding-top: 10%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: 'Oswald';
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/*Footer*/
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-image: linear-gradient(#ED4F42,#F7EDD2);
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/*Media Query*/
+@media (max-width: 1028px){
+
+  #title {
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform:rotate(0)
+  }
+}
